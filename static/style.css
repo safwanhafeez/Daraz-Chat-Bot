@@ -1,0 +1,72 @@
+body {
+    background-image: url('/static/images/ios-13-grey-dark-5k-r6-1312x738.jpg');
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #e7e7e7;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 80px;
+}
+
+.dashboard-buttons {
+    margin-top: 20px;
+}
+
+.dashboard-button,
+.search-bar,
+.search-button,
+.display-button {
+    border-radius: 25px;
+}
+
+.dashboard-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    font-weight: bold;
+}
+
+.dashboard-button:hover {
+    background-color: #0056b3;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+.search-bar {
+    background-color: #01060c;
+    color: #ffffff;
+    width: 300px;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.overview-container{
+    text-align: center;
+    font-size: 30px;
+    color:#ffffff
+}
